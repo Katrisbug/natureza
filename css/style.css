@@ -89,3 +89,29 @@ h1 {
   margin-right: 5px;
 }
 
+html {
+  scroll-behavior: smooth; /* Rolagem suave */
+}
+
+#btnTopo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  background-color: transparent; /* fundo transparente */
+  border: none;  /* sem borda */
+  padding: 0;    /* sem padding */
+  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  cursor: pointer;
+  outline: none; /* remove contorno de foco padrão */
+}
+
+#btnTopo svg {
+  fill: black;  /* cor do ícone (pode ajustar) */
+  width: 32px;
+  height: 32px;
+}
